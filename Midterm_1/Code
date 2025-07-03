@@ -14,3 +14,28 @@ section .bss
 
 section .text
     global _start
+
+_start:
+    mov eax, [var1]        
+    add eax, 2            
+    
+    mov ebx, [var3]        
+    sub ebx, [var2]        
+    
+    cdq                    
+    idiv ebx               
+
+    mov [result], eax      
+    
+    add eax, '0'            
+    mov [msg+8], eax        
+    
+    mov eax, 4             
+    mov ebx, 1              
+    mov ecx, msg           
+    mov edx, 9             
+    int 0x80
+    
+    mov eax, 1             
+    mov ebx, 0              
+    int 0x80
