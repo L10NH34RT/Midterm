@@ -1,1 +1,5 @@
 # Write a code that identifies an odd or an even number
+
+## Aproach
+### If it is even it is divisble by 2, if it is odd it is not divisble by 2, no need for XOR.
+### Check if the remainder is 0 or 1 after divided by 2.
