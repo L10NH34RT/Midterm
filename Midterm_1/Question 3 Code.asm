@@ -1,8 +1,8 @@
 section .data
     number dd 17                
     
-    msg_odd db 'odd number', 10, 0
-    msg_even db 'even number', 10, 0
+    msg_odd db 'odd number', 10, 0 ;odd number display
+    msg_even db 'even number', 10, 0 ;even number display
     
 section .text
     global _start
