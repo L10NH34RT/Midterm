@@ -1,0 +1,2 @@
+# Write an x86-compatible assembly code that calculates the following equation.
+## Result = (Var1 + Var2)/(Var3 - Var2)
