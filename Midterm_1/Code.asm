@@ -1,4 +1,7 @@
 ; Variable values: result = (var1 + 2) / (var3 - var2)
+;var1 = 10
+;var2 = 4
+;var3 = 20
 ; result = (10 + 2) / (20 - 4) = 12 / 16 = 0 
 
 section .data
